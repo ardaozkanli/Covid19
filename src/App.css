@@ -1,0 +1,19 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: blue;
+  background-image: url("./assets/world_map_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+header {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Sawarabi Mincho", serif;
+}
+
+

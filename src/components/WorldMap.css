@@ -1,0 +1,9 @@
+.map-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.map-container svg {
+    width: 70%;
+    height: 80vh;
+}

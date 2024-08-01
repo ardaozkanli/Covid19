@@ -1,20 +1,15 @@
-import { useState } from "react"
+import React from "react";
+import WorldMap from "./components/WorldMap";
+import "./App.css"
+const App = () => (
+  <div className="app-container">
+    <header>
+      <h1>COVID-19 WORLD MAP</h1>
+    </header>
+    <main>
+      <WorldMap />
+    </main>
+  </div>
+);
 
-function App() {
-  const [currentNumber,setCurrentNumber] = useState(0);
-  function handleIncrement (){
-    setCurrentNumber((prev) => prev + 1);
-  }
-  function handleDecrement (){
-     setCurrentNumber((prev) => prev -1 );
-  }
-  return (
-    <div>
-      <h1>{currentNumber}</h1>
-      <button onClick={handleIncrement}>Değeri Arttır</button>
-      <button onClick={handleDecrement}>Değeri Azalt</button>
-    </div>
-  );
-}
-
-export default App
+export default App;
